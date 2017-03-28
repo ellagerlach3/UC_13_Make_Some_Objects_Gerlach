@@ -11,3 +11,11 @@ function Cube(length, mass) {
         return this.mass / this.volume();
     }
 }
+
+function Dog(name, age, state) {
+    this.name = name;
+    this.age = age;
+    this.state = state;
+}
+
+var Dog = new Dog("Kona", 11, "Sleepy");
