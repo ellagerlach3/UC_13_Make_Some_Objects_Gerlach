@@ -12,10 +12,6 @@ function Cube(length, mass) {
     }
 }
 
-
-
-
-
 //The Pet object also has a sleepy property that is initially 0, a hunger property that is initially zero, and an awake property that is initially true.
 function Pet(name, species) {
     this.species = species;
